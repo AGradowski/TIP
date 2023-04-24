@@ -3,7 +3,7 @@ import os
 
 
 # Defining your API key as a variable in source code is not recommended
-API_KEY =os.getenv('CAMERA_API_KEY')
+API_KEY = os.getenv('MERAKI_DASHBOARD_API_KEY')
 #print(API_KEY)
 # Instead, use an environment variable as shown under the Usage section
 # @ https://github.com/meraki/dashboard-api-python/
